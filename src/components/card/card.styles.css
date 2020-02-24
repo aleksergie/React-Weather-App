@@ -12,7 +12,7 @@
 }
 
 .card-list__container:not(:first-child) {
-  margin-left: -240px;
+  margin-left: -360px;
 }
 
 .card-list__container:hover {

@@ -3,8 +3,8 @@ import "./App.css";
 import { WeekContainer } from "../src/components/week-container/week-container.component";
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       days: []
     };
