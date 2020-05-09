@@ -1,0 +1,107 @@
+.card-list__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 270px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+
+  &:not(:first-child) {
+    margin-left: -350px;
+  }
+
+  &:hover {
+    box-shadow: 0px 3px 33px -13px aqua;
+    transform: translateY(-30px) scale(1.06);
+    transition: 0.4s ease-out;
+  }
+
+  &:hover {
+    & .card-list__temperature {
+      color: white;
+      transition: color 0.4s ease-out;
+    }
+
+    & .card-list__heading {
+      color: rgb(131, 131, 131);
+      transition: color 0.4s ease-out;
+      text-shadow: 2px 7px 5px rgba(27, 27, 27, 0.6);
+    }
+
+    & .icon {
+      transform: scale(1.15);
+      color: rgb(33, 221, 221);
+      transition: 0.4s ease-out;
+      animation: shake 2s;
+    }
+
+    & .card-list__description {
+      visibility: visible;
+    }
+
+    & .card-list__date {
+      color: rgb(81, 165, 165);
+      transform: scale(1.2);
+    }
+
+    & ~ .card-list__container {
+      position: relative;
+      left: 50px;
+      transition: 0.4s ease-out;
+    }
+  }
+}
+
+.card-list__heading {
+  margin-top: 50px;
+  font-size: 30px;
+  color: rgb(197, 184, 184);
+  text-shadow: 2px 7px 5px rgba(14, 14, 14, 0.863);
+}
+
+.card-list__temperature {
+  color: rgb(95, 95, 95);
+}
+
+.card-list__date {
+  margin-top: 3px;
+  color: rgb(69, 102, 102);
+  transition: 0.3s ease-out;
+}
+
+.icon {
+  font-size: 75px;
+  color: #237777;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+}
+
+.card-list__description {
+  margin-bottom: 30px;
+  color: #4bd4d4;
+  visibility: hidden;
+  backface-visibility: hidden;
+}

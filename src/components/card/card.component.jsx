@@ -1,5 +1,5 @@
 import React from "react";
-import "./card.styles.css";
+import "./card.styles.scss";
 let moment = require("moment");
 
 class Card extends React.Component {
