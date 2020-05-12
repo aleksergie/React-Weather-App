@@ -12,7 +12,7 @@ const WeekContainer = ({ dispatch, loading, hasErrors, weatherForecast }) => {
 
   const renderWeather = () => {
     if (loading) return <Spinner />;
-    if (hasErrors) return <p>Unable to display posts.</p>;
+    if (hasErrors) throw new Error("Opss!");
 
     return weatherForecast.map((day, index) => <Card day={day} key={index} />);
   };
