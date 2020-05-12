@@ -11,7 +11,7 @@
   left: 0px;
 
   &:not(:first-child) {
-    margin-left: -350px;
+    margin-left: -310px;
   }
 
   &:hover {
@@ -57,7 +57,7 @@
 }
 
 .card-list__heading {
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 30px;
   color: rgb(197, 184, 184);
   text-shadow: 2px 7px 5px rgba(14, 14, 14, 0.863);
@@ -100,7 +100,7 @@
 }
 
 .card-list__description {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: #4bd4d4;
   visibility: hidden;
   backface-visibility: hidden;
