@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Weather-App/static/css/main.cd29c647.chunk.css",
-    "main.js": "/React-Weather-App/static/js/main.ac6291d0.chunk.js",
-    "main.js.map": "/React-Weather-App/static/js/main.ac6291d0.chunk.js.map",
-    "runtime-main.js": "/React-Weather-App/static/js/runtime-main.5239941c.js",
-    "runtime-main.js.map": "/React-Weather-App/static/js/runtime-main.5239941c.js.map",
-    "static/js/2.c3ba301a.chunk.js": "/React-Weather-App/static/js/2.c3ba301a.chunk.js",
-    "static/js/2.c3ba301a.chunk.js.map": "/React-Weather-App/static/js/2.c3ba301a.chunk.js.map",
-    "index.html": "/React-Weather-App/index.html",
-    "precache-manifest.e000042097823c17e7db89c89c30cf72.js": "/React-Weather-App/precache-manifest.e000042097823c17e7db89c89c30cf72.js",
-    "service-worker.js": "/React-Weather-App/service-worker.js",
-    "static/css/main.cd29c647.chunk.css.map": "/React-Weather-App/static/css/main.cd29c647.chunk.css.map",
-    "static/js/2.c3ba301a.chunk.js.LICENSE.txt": "/React-Weather-App/static/js/2.c3ba301a.chunk.js.LICENSE.txt"
+    "main.css": "/aleksergie/React-Weather-App/static/css/main.41f332a3.chunk.css",
+    "main.js": "/aleksergie/React-Weather-App/static/js/main.fdfa766b.chunk.js",
+    "main.js.map": "/aleksergie/React-Weather-App/static/js/main.fdfa766b.chunk.js.map",
+    "runtime-main.js": "/aleksergie/React-Weather-App/static/js/runtime-main.b6a93211.js",
+    "runtime-main.js.map": "/aleksergie/React-Weather-App/static/js/runtime-main.b6a93211.js.map",
+    "static/js/2.eab8f83f.chunk.js": "/aleksergie/React-Weather-App/static/js/2.eab8f83f.chunk.js",
+    "static/js/2.eab8f83f.chunk.js.map": "/aleksergie/React-Weather-App/static/js/2.eab8f83f.chunk.js.map",
+    "index.html": "/aleksergie/React-Weather-App/index.html",
+    "precache-manifest.943d5ffbed4a4ad93131431be56245e9.js": "/aleksergie/React-Weather-App/precache-manifest.943d5ffbed4a4ad93131431be56245e9.js",
+    "service-worker.js": "/aleksergie/React-Weather-App/service-worker.js",
+    "static/css/main.41f332a3.chunk.css.map": "/aleksergie/React-Weather-App/static/css/main.41f332a3.chunk.css.map",
+    "static/js/2.eab8f83f.chunk.js.LICENSE.txt": "/aleksergie/React-Weather-App/static/js/2.eab8f83f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5239941c.js",
-    "static/js/2.c3ba301a.chunk.js",
-    "static/css/main.cd29c647.chunk.css",
-    "static/js/main.ac6291d0.chunk.js"
+    "static/js/runtime-main.b6a93211.js",
+    "static/js/2.eab8f83f.chunk.js",
+    "static/css/main.41f332a3.chunk.css",
+    "static/js/main.fdfa766b.chunk.js"
   ]
 }
