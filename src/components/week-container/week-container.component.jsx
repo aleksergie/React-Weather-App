@@ -4,6 +4,8 @@ import Card from "../card/card.component";
 import { connect } from "react-redux";
 import { fetchWeatherForecast } from "../../redux/weather-forecast/weather-forecast.actions";
 import Spinner from "../../components/spinner/spinner.component";
+import { Tooltip } from "@material-ui/core";
+import ChartImg from "../bar-chart-image/bar-chart-image";
 
 const WeekContainer = ({ dispatch, loading, hasErrors, weatherForecast }) => {
   useEffect(() => {
@@ -12,12 +14,31 @@ const WeekContainer = ({ dispatch, loading, hasErrors, weatherForecast }) => {
 
   const renderWeather = () => {
     if (loading) return <Spinner />;
-    if (hasErrors) throw new Error("Opss!");
+    if (hasErrors) throw new Error("Oops!");
 
     return weatherForecast.map((day, index) => <Card day={day} key={index} />);
   };
 
-  return <div className="card-list">{renderWeather()}</div>;
+  return (
+    <div>
+      {loading ? (
+        ""
+      ) : (
+        <Tooltip
+          title="Click to show the chart"
+          TransitionProps={{ timeout: 350 }}
+          placement="right"
+          arrow
+        >
+          <div className="chart-container">
+            <ChartImg />
+          </div>
+        </Tooltip>
+      )}
+
+      <div className="card-list">{renderWeather()}</div>
+    </div>
+  );
 };
 
 const mapStateToProps = (state) => ({

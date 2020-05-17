@@ -1,7 +1,12 @@
 .card-list {
-  margin-top: 85px;
+  margin-bottom: 15px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.chart-container {
+  display: inline-block;
 }

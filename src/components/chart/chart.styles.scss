@@ -1,0 +1,16 @@
+.mixed-chart {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.apexcharts-text {
+  tspan {
+    font-size: 18px;
+    fill: #232424;
+  }
+}
+
+.apexcharts-toolbar {
+  display: none;
+}
